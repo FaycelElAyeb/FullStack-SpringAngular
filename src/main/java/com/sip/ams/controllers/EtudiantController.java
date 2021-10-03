@@ -13,6 +13,7 @@ import com.sip.ams.entities.Etudiant;
 import java.util.*;
 
 @Controller
+@RequestMapping("/etudiant")
 public class EtudiantController {
 	List<Etudiant> etudiants = new ArrayList<>();
 	
